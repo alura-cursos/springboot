@@ -1,13 +1,12 @@
-package br.com.alura.listavip;
+package br.com.alura.enviadorEmail;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Configuracao {
+public class EnviadorEmailApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Configuracao.class, args);
+		SpringApplication.run(EnviadorEmailApplication.class, args);
 	}
-	
 }

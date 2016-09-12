@@ -17,6 +17,7 @@ public class ConvidadoController {
 	@Autowired
 	private ConvidadoService service;
 	
+	
 	@RequestMapping("/")
 	public String index(){
 		return "index";
